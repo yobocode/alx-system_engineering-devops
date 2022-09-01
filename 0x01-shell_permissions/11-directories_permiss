@@ -1,1 +1,2 @@
 chmod -R ugo+x.
+chmod -R ugo+x ,
