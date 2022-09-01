@@ -1,2 +1,0 @@
-#!/bin/bash
-mv "[[:upper:]]*" -exec mv -t ~/tmp/u
