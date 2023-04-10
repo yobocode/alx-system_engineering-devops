@@ -37,15 +37,18 @@ listen http-in
         balance roundrobin
         server 118914-web-01 54.237.34.39:80 check
         server 118914-web-02 54.157.176.77:80 check
-frontend  yobo-frontend-http
+frontend yobo-frontend-http
         bind *:80
         mode http
         http-request set-header X-Forwarded-Proto http
         default_backend yobo-backend
 
-frontend yobo-frontend-https
+frontend yobo-frontend
+        bind *:80
+        mode http
         bind *:443 ssl crt /etc/haproxy/certs/www.yibrah.tech.pem
-        http-request set-header X-Forwarded-Proto https
+        redirect scheme https if !{ ssl_fc }
+        stats uri /haproxy?stats
         default_backend yobo-backend
 
 backend yobo-backend
