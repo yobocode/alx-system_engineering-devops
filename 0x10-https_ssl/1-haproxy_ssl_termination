@@ -37,18 +37,18 @@ listen http-in
         balance roundrobin
         server 118914-web-01 54.237.34.39:80 check
         server 118914-web-02 54.157.176.77:80 check
-frontend  ezana-frontend-http
+frontend  yibrah-frontend-http
         bind *:80
         mode http
         http-request set-header X-Forwarded-Proto http
         default_backend ezana-backend
 
-frontend ezana-frontend-https
+frontend yibrah-frontend-https
         bind *:443 ssl crt /etc/haproxy/certs/www.bestezana.tech.pem
         http-request set-header X-Forwarded-Proto https
         default_backend ezana-backend
 
-backend ezana-backend
+backend yibrah-backend
         balance roundrobin
         server 118914-web-01 54.237.34.39:80 check
         server 118914-web-02 54.157.176.77:80 check
