@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """Function to print hot posts on a given Reddit subreddit."""
 import requests
-
+import sys
 
 def top_ten(subreddit):
     """Print the titles of the 10 hottest posts on a given subreddit."""
