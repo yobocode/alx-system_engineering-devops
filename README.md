@@ -13,4 +13,4 @@ At Alx SE Program, we learn by doing. We have projects everyday that we have to 
 
 ## AUTHOR
 
-* **[Yibah Teare Ammare](https://github.com/yobocode)** - Cohort 9
+* **[Yibrah Teare Ammare](https://github.com/yobocode)** - Cohort 9
