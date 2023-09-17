@@ -9,9 +9,6 @@
 
 ## Background Context
 
-<p align="center">
-  <img src="assets/i.jpg" width="450" title="gif">
-</p>
 
 The Webstack debugging series will train you in the art of debugging. Computers and software rarely work the way we want (that’s the “fun” part of the job!).
 
