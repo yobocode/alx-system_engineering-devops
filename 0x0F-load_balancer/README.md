@@ -4,10 +4,6 @@
 ![DevOps](https://img.shields.io/badge/-DevOps-yellow)
 ![SysAdmin](https://img.shields.io/badge/-SysAdmin-yellowgreen)
 
-<p align="center">
-  <img src="assets/b.png" width="450" title="gif">
-</p>
-
 ## Background Context
 You have been given 2 additional servers:
 * gc-[STUDENT_ID]-web-02-XXXXXXXXXX
